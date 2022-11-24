@@ -4,7 +4,7 @@ const StreamerSchema = mongoose.Schema(
     {
         email: {
             type: String,
-            required: [true, 'email required'],
+            required: [true, 'email required!'],
             unique: true,
         },
         pseudo: {
